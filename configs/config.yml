@@ -1,0 +1,8 @@
+detection_model_weight_path: ./weights/logo_detection_weight.pt
+model_embedding_name: google/siglip-base-patch16-224
+support_dataset_path: ./support_dataset
+support_dataset_images_path: ./support_dataset/images
+support_dataset_embeddings_path: ./support_dataset/embeddings
+support_dataset_label_csv_path: ./support_dataset/label.csv
+streamlit_api_url: http://localhost:8501/
+fastapi_api_search_url: http://localhost:8000/search
